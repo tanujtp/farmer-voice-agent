@@ -1,6 +1,6 @@
 "use client"
 
-import { livekitTokenApi } from "@/api/audio"
+import { livekitTokenApi } from "@/utils/audio"
 import { usePlan } from "@/providers/PlanProvider"
 import { useAppStore } from "@/store"
 import { __AGENT_SOCKET_ENDPOINT__ } from "@/utils/apiEndoints"
